@@ -26,9 +26,15 @@ public class consoante {
 			count++;
 			
 		}while(count < consoante.length);
+		
+		System.out.println("Consoantes: ");
+		for(String consoantes : consoante) {
+			if(consoante != null)
+				System.out.println(consoantes + " ");
+		}
 	
 		
-		System.out.println(qtdeConsoantes);
+		System.out.println("Quantidade de Consoantes: " + qtdeConsoantes);
 
 	}
 	
